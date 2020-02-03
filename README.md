@@ -13,3 +13,5 @@ Vue.use(makedownplugin)
 </template>
 
 @getData有两个参数，传递了编辑器的内容，和选中文本。得到了选中文本，就可以对插件进行拓展。
+
+/src/doc 是插件使用例子
