@@ -6,7 +6,7 @@ Vue.use(makedownplugin)
 全局注册了以后，可以在任何一个页面上引用组件
 <template>
     <div>
-        <markdown @getData="getdata">
+        <markdown @getData="getdata" width="100%" height="300px">
           <!--这是插槽-->
         </markdown>
     </div>
